@@ -28,7 +28,7 @@ jobs:
 
   execute-UI-tests:
     needs: build_and_test
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
       
     steps:
     - name: Checkout the code
